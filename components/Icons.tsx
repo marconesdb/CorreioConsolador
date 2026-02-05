@@ -4,7 +4,7 @@ export const LogoIcon = () => (
   <img
     src={('../img/logo.png')} // ou use import logo from './logo.png' acima e src={logo}
     alt="Logo Sabedoria Infinita"
-    width={34}
+    width={204}
     height={34}
     className="text-red-600"
   />

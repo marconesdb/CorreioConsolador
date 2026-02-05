@@ -32,8 +32,8 @@ const Navbar: React.FC<NavbarProps> = ({ user, onSearch, onLoginClick, onHomeCli
 
       {/* Desktop Links */}
       <div className="hidden md:flex items-center space-x-2 mr-4">
-        <button onClick={onHomeClick} className="bg-purple-400 text-purple-900 hover:bg-purple-500 text-white px-4 py-3 rounded-3xl font-semibold text-base">Home</button>
-        <button className="bg-white text-black hover:bg-gray-100 px-4 py-3 rounded-3xl font-semibold text-base">Create</button>
+        <button onClick={onHomeClick} className="bg-amber-100 text-black-900 hover:bg-purple-500 px-4 py-3 rounded-3xl font-semibold text-base">Correio Consolador</button>
+        <button className="bg-white text-black hover:bg-gray-100 px-4 py-3 rounded-3xl font-semibold text-base">Home</button>
       </div>
 
       {/* Search Bar */}
@@ -80,10 +80,10 @@ const Navbar: React.FC<NavbarProps> = ({ user, onSearch, onLoginClick, onHomeCli
             onClick={onLoginClick}
             className="bg-purple-400 text-purple-900 hover:bg-purple-500 text-white px-4 py-2 rounded-3xl font-semibold text-sm"
           >
-            Log in
+         Sobre Nós
           </button>
           <button className="bg-gray-100 hover:bg-gray-200 text-gray-900 px-4 py-2 rounded-3xl font-semibold text-sm hidden sm:block">
-            Sign up
+         Quem Somos
           </button>
         </div>
       )}
