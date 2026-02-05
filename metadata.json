@@ -1,0 +1,5 @@
+{
+  "name": "PinSpire - Visual Discovery Engine",
+  "description": "A Pinterest-inspired visual discovery engine. Features masonry layout, responsive design, and AI-powered content generation using Gemini 2.5 Flash to simulate search results and recommendations.",
+  "requestFramePermissions": []
+}
