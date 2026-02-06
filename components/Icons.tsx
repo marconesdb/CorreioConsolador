@@ -2,7 +2,7 @@ import React from 'react';
 
 export const LogoIcon = () => (
   <img
-    src={('../img/logo.png')} // ou use import logo from './logo.png' acima e src={logo}
+    src={('./img/logo.png')} // ou use import logo from './logo.png' acima e src={logo}
     alt="Logo Correio Consolador"
     width={204}
     height={34}
