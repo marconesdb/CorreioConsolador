@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, onSearch, onLoginClick, onHomeCli
     <div className="fixed top-0 left-0 right-0 h-20 bg-white z-50 px-4 flex items-center shadow-sm">
       {/* Logo */}
       <div 
-        className="flex items-center justify-center h-22 w-16 min-w-[58px] rounded-full hover:bg-purple-200 cursor-pointer mr-2"
+        className="flex items-center justify-center h-22 w-16 min-w-[58px] rounded-full  cursor-pointer mr-2"
         onClick={onHomeClick}
       >
         <LogoIcon />
