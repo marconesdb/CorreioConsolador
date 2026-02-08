@@ -1,3 +1,6 @@
+// MasonryLayout.tsx
+
+
 import React from 'react';
 import { Pin } from '../types';
 import PinCard from './PinCard';

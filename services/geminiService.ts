@@ -1,3 +1,6 @@
+//geminiService.ts
+
+
 import { GoogleGenAI, Type } from "@google/genai";
 import { Pin, User } from '../types';
 

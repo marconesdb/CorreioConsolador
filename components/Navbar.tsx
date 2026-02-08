@@ -1,3 +1,6 @@
+// Navbar.tsx
+
+
 import React, { useState } from 'react';
 import { LogoIcon, SearchIcon, BellIcon, MessageIcon, ChevronDown } from './Icons';
 import { User } from '../types';
