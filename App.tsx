@@ -160,11 +160,8 @@ const App = () => {
         <PinModal pin={selectedPin} onClose={() => setSelectedPin(null)} />
       )}
       
-      {!user && (
-        <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-3 rounded-full shadow-lg text-sm font-semibold z-40">
-          Log in to save ideas!
-        </div>
-      )}
+      
+     
     </div>
   );
 };
