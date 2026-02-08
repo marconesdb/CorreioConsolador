@@ -42,7 +42,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, onSearch, onLoginClick, onHomeCli
       {/* Desktop Links */}
       <div className="hidden md:flex items-center space-x-2 mr-4">
         <button  onClick={() => navigate('/')} className="bg-amber-100 text-black-900 hover:bg-amber-300 px-4 py-3 rounded-3xl font-semibold text-base">Correio Consolador</button>
-       <button onClick={() => navigate('/')} ClassName="bg-white text-black hover:bg-gray-100 px-4 py-3 rounded-3xl font-semibold text-base" > Home </button>
+       <button onClick={() => navigate('/')} className="bg-white text-black hover:bg-gray-100 px-4 py-3 rounded-3xl font-semibold text-base" > Home </button>
       </div>
 
       {/* Search Bar */}
