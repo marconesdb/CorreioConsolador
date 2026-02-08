@@ -6,7 +6,7 @@ import UserProfile from './components/UserProfile';
 import { Pin, User } from './types';
 import { generatePinIdeas } from './services/geminiService';
 
-// Define a Current User
+// ✅ CURRENT_USER - APENAS UMA VEZ!
 const CURRENT_USER: User = {
   id: 'u1',
   username: 'frontend_wizard',
@@ -17,25 +17,95 @@ const CURRENT_USER: User = {
   following: 15
 };
 
+// ✅ INITIAL_PINS - Logo depois
+const INITIAL_PINS: Pin[] = [
+  {
+    id: '1',
+    title: 'Minha Imagem 1',
+    description: 'Descrição da imagem',
+    imageUrl: 'https://picsum.photos/seed/image1/400/500',
+    author: CURRENT_USER,
+    width: 400,
+    height: 500,
+    tags: ['tag1', 'tag2']
+  },
+  {
+    id: '2',
+    title: 'Minha Imagem 2',
+    description: 'Descrição da imagem',
+    imageUrl: 'https://picsum.photos/seed/image2/400/600',
+    author: CURRENT_USER,
+    width: 400,
+    height: 600,
+    tags: ['tag1']
+  },
+  {
+    id: '3',
+    title: 'Minha Imagem 3',
+    description: 'Descrição da imagem',
+    imageUrl: 'https://picsum.photos/seed/image3/400/550',
+    author: CURRENT_USER,
+    width: 400,
+    height: 550,
+    tags: ['tag2', 'tag3']
+  },
+  {
+    id: '4',
+    title: 'Minha Imagem 4',
+    description: 'Descrição da imagem',
+    imageUrl: 'https://picsum.photos/seed/image4/400/700',
+    author: CURRENT_USER,
+    width: 400,
+    height: 700,
+    tags: ['tag1', 'tag3']
+  },
+  {
+    id: '5',
+    title: 'Minha Imagem 5',
+    description: 'Descrição da imagem',
+    imageUrl: '/img/logo.png',
+    author: CURRENT_USER,
+    width: 400,
+    height: 480,
+    tags: ['tag2']
+  },
+  {
+    id: '6',
+    title: 'Minha Imagem 6',
+    description: 'Descrição da imagem',
+    imageUrl: 'https://picsum.photos/seed/image6/400/650',
+    author: CURRENT_USER,
+    width: 400,
+    height: 650,
+    tags: ['tag1', 'tag2', 'tag3']
+  }
+];
+
 const App = () => {
-  const [pins, setPins] = useState<Pin[]>([]);
+  const [pins, setPins] = useState<Pin[]>(INITIAL_PINS);
   const [selectedPin, setSelectedPin] = useState<Pin | null>(null);
-  const [user, setUser] = useState<User | null>(null); // Null = not logged in
+  const [user, setUser] = useState<User | null>(null);
   const [view, setView] = useState<'home' | 'profile'>('home');
   const [isSearching, setIsSearching] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  // Initial Load
+  // 🔍 DEBUG
+  useEffect(() => {
+    console.log('📌 Total de pins:', pins.length);
+    console.log('📌 Pins completos:', pins);
+  }, [pins]);
+
+  // ❌ COMENTADO - Não buscar do Gemini
+  /*
   useEffect(() => {
     handleSearch('Nature Photography');
   }, []);
+  */
 
   const handleSearch = useCallback(async (query: string) => {
     setIsSearching(true);
     setLoading(true);
-    // Clear current pins to show loading state clearly or keep them and append? 
-    // Pinterest usually keeps them until new ones load, but for this demo we clear to show Gemini working.
-    setPins([]); 
+    setPins([]);
     
     const newPins = await generatePinIdeas(query);
     setPins(newPins);
@@ -90,7 +160,6 @@ const App = () => {
         <PinModal pin={selectedPin} onClose={() => setSelectedPin(null)} />
       )}
       
-      {/* Login Notification (Toast-ish) */}
       {!user && (
         <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-3 rounded-full shadow-lg text-sm font-semibold z-40">
           Log in to save ideas!
