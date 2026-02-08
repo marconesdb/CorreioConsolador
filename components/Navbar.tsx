@@ -4,6 +4,9 @@
 import React, { useState } from 'react';
 import { LogoIcon, SearchIcon, BellIcon, MessageIcon, ChevronDown } from './Icons';
 import { User } from '../types';
+import { useNavigate } from 'react-router-dom';
+
+
 
 interface NavbarProps {
   user: User | null;
@@ -23,6 +26,9 @@ const Navbar: React.FC<NavbarProps> = ({ user, onSearch, onLoginClick, onHomeCli
     }
   };
 
+  const navigate = useNavigate();
+
+
   return (
     <div className="fixed top-0 left-0 right-0 h-20 bg-white z-50 px-4 flex items-center shadow-sm">
       {/* Logo */}
@@ -36,7 +42,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, onSearch, onLoginClick, onHomeCli
       {/* Desktop Links */}
       <div className="hidden md:flex items-center space-x-2 mr-4">
         <button onClick={onHomeClick} className="bg-amber-100 text-black-900 hover:bg-amber-300 px-4 py-3 rounded-3xl font-semibold text-base">Correio Consolador</button>
-        <button className="bg-white text-black hover:bg-gray-100 px-4 py-3 rounded-3xl font-semibold text-base">Home</button>
+       <button onClick={() => navigate('/')} ClassName="bg-white text-black hover:bg-gray-100 px-4 py-3 rounded-3xl font-semibold text-base" > Home </button>
       </div>
 
       {/* Search Bar */}
@@ -79,15 +85,20 @@ const Navbar: React.FC<NavbarProps> = ({ user, onSearch, onLoginClick, onHomeCli
         </div>
       ) : (
         <div className="flex items-center space-x-2 ml-2">
-           <button 
-            onClick={onLoginClick}
-            className="bg-red-600 text-purple-900 hover:bg-red-500 text-white px-4 py-2 rounded-3xl font-semibold text-sm"
-          >
-         Sobre Nós
-          </button>
-          <button className="bg-gray-100 hover:bg-gray-200 text-gray-900 px-4 py-2 rounded-3xl font-semibold text-sm hidden sm:block">
-         Quem Somos
-          </button>
+          <button 
+  onClick={() => navigate('/sobre-nos')}
+  className="bg-red-600 text-purple-900 hover:bg-red-500 text-white px-4 py-2 rounded-3xl font-semibold text-sm"
+>
+  Sobre Nós
+</button>
+
+<button 
+  onClick={() => navigate('/quem-somos')}
+  className="bg-gray-100 hover:bg-gray-200 text-gray-900 px-4 py-2 rounded-3xl font-semibold text-sm hidden sm:block"
+>
+  Quem Somos
+</button>
+
         </div>
       )}
     </div>

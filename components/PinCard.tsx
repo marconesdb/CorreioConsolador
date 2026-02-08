@@ -61,15 +61,8 @@ const PinCard: React.FC<PinCardProps> = ({ pin, onClick }) => {
         {/* Hover Overlay */}
         {isHovered && (
           <div className="absolute inset-0 bg-black/20 transition-opacity duration-200 flex flex-col justify-between p-3">
-             <div className="flex justify-end items-start">
-                <button 
-                  onClick={handleSave}
-                  className={`${isSaved ? 'bg-black text-white' : 'bg-red-600 text-white'} px-4 py-3 rounded-3xl font-bold text-sm hover:opacity-90 transition-colors`}
-                >
-                  {isSaved ? 'Saved' : 'Save'}
-                </button>
-             </div>
-             
+           
+            
              <div className="flex justify-end space-x-2">
                 <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors">
                   <ShareIcon />
