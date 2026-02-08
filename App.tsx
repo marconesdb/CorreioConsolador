@@ -53,7 +53,7 @@ const INITIAL_PINS: Pin[] = [
     id: '4',
     title: 'Minha Imagem 4',
     description: 'Descrição da imagem',
-    imageUrl: 'https://picsum.photos/seed/image4/400/700',
+    imageUrl: '/img/msg-03.png',
     author: CURRENT_USER,
     width: 400,
     height: 700,
@@ -62,8 +62,8 @@ const INITIAL_PINS: Pin[] = [
   {
     id: '5',
     title: 'Minha Imagem 5',
-    description: 'Descrição da imagem',
-    imageUrl: '/img/logo.png',
+    description: 'Perdão',
+    imageUrl: '/img/msg-02.png',
     author: CURRENT_USER,
     width: 400,
     height: 480,
@@ -73,7 +73,7 @@ const INITIAL_PINS: Pin[] = [
     id: '6',
     title: 'Minha Imagem 6',
     description: 'Descrição da imagem',
-    imageUrl: 'https://picsum.photos/seed/image6/400/650',
+    imageUrl: '/img/msg-01.png',
     author: CURRENT_USER,
     width: 400,
     height: 650,
@@ -95,12 +95,7 @@ const App = () => {
     console.log('📌 Pins completos:', pins);
   }, [pins]);
 
-  // ❌ COMENTADO - Não buscar do Gemini
-  /*
-  useEffect(() => {
-    handleSearch('Nature Photography');
-  }, []);
-  */
+  
 
   const handleSearch = useCallback(async (query: string) => {
     setIsSearching(true);
@@ -160,7 +155,7 @@ const App = () => {
         <PinModal pin={selectedPin} onClose={() => setSelectedPin(null)} />
       )}
       
-      
+
      
     </div>
   );
