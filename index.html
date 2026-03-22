@@ -3,38 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Correio Consolador</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./img/favicon_3.png" type="image/x-icon">
+    
 
-    <style>
-      body { font-family: 'Inter', sans-serif; }
-      /* Hide scrollbar for clean UI but keep functionality */
-      .no-scrollbar::-webkit-scrollbar {
-          display: none;
+    <!-- SEO Básico -->
+    <title>Correio Consolador</title>
+    <meta name="description" content="O Correio Consolador é um espaço dedicado à difusão de mensagens evangelizadoras, reflexões espirituais e conteúdos edificantes à luz do Evangelho de Jesus." />
+    <meta name="keywords" content="correio consolador, mensagens espíritas, evangelho, espiritismo, fé, esperança, consolo, reflexões espirituais, Chico Xavier, Emmanuel" />
+    <meta name="author" content="Marcone Silva de Brito" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.correioconsolador.com.br/" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Correio Consolador" />
+    <meta property="og:title" content="Correio Consolador — Mensagens de Fé, Esperança e Consolo" />
+    <meta property="og:description" content="Reflexões, mensagens e conteúdos edificantes à luz do Evangelho de Jesus e da Doutrina Espírita." />
+    <meta property="og:url" content="https://www.correioconsolador.com.br/" />
+    <meta property="og:image" content="https://www.correioconsolador.com.br/img/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Correio Consolador — Mensagens de Fé, Esperança e Consolo" />
+    <meta name="twitter:description" content="Reflexões, mensagens e conteúdos edificantes à luz do Evangelho de Jesus e da Doutrina Espírita." />
+    <meta name="twitter:image" content="https://www.correioconsolador.com.br/img/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon_3.png" type="image/x-png">
+    <link rel="apple-touch-icon" href="/img/logo.png" />
+
+    <!-- Schema.org (Google) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Correio Consolador",
+      "url": "https://www.correioconsolador.com.br/",
+      "description": "Espaço dedicado à difusão de mensagens evangelizadoras e reflexões espirituais.",
+      "author": {
+        "@type": "Person",
+        "name": "Marcone Silva de Brito"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.correioconsolador.com.br/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
-      .no-scrollbar {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
-  <body class="bg-white text-gray-900 antialiased">
+    }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
