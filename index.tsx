@@ -5,6 +5,8 @@ import App from './App';
 import Home from './Home';
 import SobreNos from './components/SobreNos';
 import QuemSomos from './components/QuemSomos';
+import Doação from './components/Doação';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 
@@ -16,6 +18,7 @@ root.render(
           <Route index element={<Home />} />
           <Route path="sobre-nos" element={<SobreNos />} />
           <Route path="quem-somos" element={<QuemSomos />} />
+          <Route path="doacao" element={<Doação />} />
         </Route>
       </Routes>
     </BrowserRouter>

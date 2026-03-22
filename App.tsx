@@ -2,6 +2,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import { Outlet } from 'react-router-dom';
+import Footer from './components/Footer';
+
 
 const App: React.FC = () => {
   return (
@@ -17,6 +19,7 @@ const App: React.FC = () => {
       <main className="pt-24 pb-12">
         <Outlet /> {/* Aqui entram Home, SobreNos, QuemSomos */}
       </main>
+      <Footer />
     </div>
   );
 };
