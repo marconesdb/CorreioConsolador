@@ -84,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, onHomeClick }) => {
           onClick={() => navigate('/doacao')}
           className="bg-red-600 hover:bg-red-500 text-white px-4 py-2 rounded-3xl font-semibold text-sm"
         >
-          <span>🤍</span> Doe
+          <span>🤍</span> Doe Agora
         </button>
       </div>
     </div>
