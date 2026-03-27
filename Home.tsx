@@ -23,7 +23,16 @@ const INITIAL_PINS: Pin[] = [
   { id: '11', title: 'Humilhação, Discórdia, Crueldade, Pertubação, Elevação, Senhor, Deus',  description: 'Humilhação, Discórdia, Crueldade, Pertubação, Elevação, Senhor, Deus',  imageUrl: '/img/msg-11.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '12', title: 'Auxílio, Céu, Amparo, Caminho',  description: 'Auxílio, Céu, Amparo, Caminho',  imageUrl: '/img/msg-12.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '13', title: 'Colaboradores, Cooperadores, Professores',  description: 'Colaboradores, Cooperadores, Professores',  imageUrl: '/img/msg-13.png', width: 400, height: 480, tags: ['tag2'] },
-  
+  { id: '14',  title: 'Escola, Aluno, Aprendiz',                     description: 'Escola, Aluno, Aprendiz',                                   imageUrl: '/img/msg-14.png', width: 400, height: 500, tags: ['tag1', 'tag2'] },
+  { id: '15',  title: 'Vigilância', description: 'Vigilância', imageUrl: '/img/msg-15.png', width: 400, height: 550, tags: ['tag2', 'tag3'] },
+  { id: '16',  title: 'Paz',   description: 'Paz',                                                       imageUrl: '/img/msg-16.png', width: 400, height: 700, tags: ['tag1', 'tag3'] },
+  { id: '17',  title: 'Vencer, Vitória',     description: 'Vencer, Vitória',                                                     imageUrl: '/img/msg-17.png', width: 400, height: 650, tags: ['tag1', 'tag2', 'tag3'] },
+  { id: '18',  title: 'Riqueza, Tesouro, Dinheiro',     description: 'Riqueza, Tesouro, Dinheiro',                                               imageUrl: '/img/msg-18.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '19',  title: 'Respeito',    description: 'Respeito',                                         imageUrl: '/img/msg-19.png', width: 400, height: 500, tags: ['tag1', 'tag2'] },
+  { id: '20',  title: 'Desânimo',    description: 'Desânimo',   imageUrl: '/img/msg-20.png', width: 400, height: 550, tags: ['tag2', 'tag3'] },
+  { id: '21',  title: 'Amai-vos',    description: 'Amai-vos',   imageUrl: '/img/msg-21.png', width: 400, height: 700, tags: ['tag1', 'tag3'] },
+  { id: '22',  title: '',   description: '',                                     imageUrl: '/img/msg-22.png', width: 400, height: 650, tags: ['tag1', 'tag2', 'tag3'] },
+  { id: '23', title: '',  description: '',  imageUrl: '/img/msg-23.png', width: 400, height: 480, tags: ['tag2'] },
 
 
 ];
