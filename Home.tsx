@@ -31,8 +31,11 @@ const INITIAL_PINS: Pin[] = [
   { id: '19',  title: 'Respeito',    description: 'Respeito',                                         imageUrl: '/img/msg-19.png', width: 400, height: 500, tags: ['tag1', 'tag2'] },
   { id: '20',  title: 'Desânimo',    description: 'Desânimo',   imageUrl: '/img/msg-20.png', width: 400, height: 550, tags: ['tag2', 'tag3'] },
   { id: '21',  title: 'Amai-vos',    description: 'Amai-vos',   imageUrl: '/img/msg-21.png', width: 400, height: 700, tags: ['tag1', 'tag3'] },
-  { id: '22',  title: '',   description: '',                                     imageUrl: '/img/msg-22.png', width: 400, height: 650, tags: ['tag1', 'tag2', 'tag3'] },
-  { id: '23', title: '',  description: '',  imageUrl: '/img/msg-23.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '22',  title: 'Ensina-nos',   description: 'Aprendizado', imageUrl: '/img/msg-22.png', width: 400, height: 650, tags: ['tag1', 'tag2', 'tag3'] },
+  { id: '23', title: 'Luz Divina',  description: 'Luz Divina',  imageUrl: '/img/msg-23.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '24', title: 'Benção',  description: 'Benção, Amizade, Amigo, Amor',  imageUrl: '/img/msg-24.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '25', title: 'Amor',  description: 'Ciência, Amor',  imageUrl: '/img/msg-25.png', width: 400, height: 480, tags: ['tag2'] },
+
 
 
 ];
