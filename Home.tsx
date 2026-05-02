@@ -36,6 +36,8 @@ const INITIAL_PINS: Pin[] = [
   { id: '24', title: 'Benção',  description: 'Benção, Amizade, Amigo, Amor',  imageUrl: '/img/msg-24.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '25', title: 'Amor',  description: 'Ciência, Amor',  imageUrl: '/img/msg-25.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '26', title: 'Cooperação',  description: 'Trabalho, Auxilio',  imageUrl: '/img/msg-26.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '27', title: 'Humildade',  description: 'Humildade',  imageUrl: '/img/msg-27.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '28', title: 'Prazer',  description: 'Prazer',  imageUrl: '/img/msg-28.png', width: 400, height: 480, tags: ['tag2'] }
 
 
 
