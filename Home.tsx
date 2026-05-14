@@ -37,10 +37,10 @@ const INITIAL_PINS: Pin[] = [
   { id: '25', title: 'Amor',  description: 'Ciência, Amor',  imageUrl: '/img/msg-25.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '26', title: 'Cooperação',  description: 'Trabalho, Auxilio',  imageUrl: '/img/msg-26.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '27', title: 'Humildade',  description: 'Humildade',  imageUrl: '/img/msg-27.png', width: 400, height: 480, tags: ['tag2'] },
-  { id: '28', title: 'Prazer',  description: 'Prazer',  imageUrl: '/img/msg-28.png', width: 400, height: 480, tags: ['tag2'] }
-
-
-
+  { id: '28', title: 'Prazer',  description: 'Prazer',  imageUrl: '/img/msg-28.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '29', title: 'Caridade',  description: 'Caridade',  imageUrl: '/img/msg-29.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '30', title: 'Bens Materiais',  description: 'Bens Materiais',  imageUrl: '/img/msg-30.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '31', title: 'Dinheiro',  description: 'Dinheiro',  imageUrl: '/img/msg-31.png', width: 400, height: 480, tags: ['tag2'] }
 
 ];
 
