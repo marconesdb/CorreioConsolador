@@ -44,7 +44,11 @@ const INITIAL_PINS: Pin[] = [
   { id: '32', title: 'Bondade',  description: 'Bondade',  imageUrl: '/img/msg-32.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '33', title: 'Leis',  description: 'Leis',  imageUrl: '/img/msg-33.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '34', title: 'Paciência',  description: 'Paciência',  imageUrl: '/img/msg-34.png', width: 400, height: 480, tags: ['tag2'] },
-  { id: '35', title: 'Problemas',  description: 'Problemas',  imageUrl: '/img/msg-35.png', width: 400, height: 480, tags: ['tag2'] }
+  { id: '35', title: 'Problemas',  description: 'Problemas',  imageUrl: '/img/msg-35.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '36', title: 'Problema',  description: 'Problema',  imageUrl: '/img/msg-36.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '37', title: 'Alegria',  description: 'Alegria',  imageUrl: '/img/msg-37.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '38', title: 'Providência',  description: 'Providência',  imageUrl: '/img/msg-38.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '39', title: 'Se',  description: 'Se',  imageUrl: '/img/msg-39.png', width: 400, height: 480, tags: ['tag2'] }
 
 ];
 
