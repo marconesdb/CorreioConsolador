@@ -52,7 +52,12 @@ const INITIAL_PINS: Pin[] = [
   { id: '40', title: 'Pensamentos',  description: 'Pensamentos',  imageUrl: '/img/msg-40.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '41', title: 'Felicidade',  description: 'Felicidade',  imageUrl: '/img/msg-41.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '42', title: 'Irritação',  description: 'Irritação',  imageUrl: '/img/msg-42.png', width: 400, height: 480, tags: ['tag2'] },
-  { id: '43', title: 'Benção',  description: 'Benção',  imageUrl: '/img/msg-43.png', width: 400, height: 480, tags: ['tag2'] }
+  { id: '43', title: 'Benção',  description: 'Benção',  imageUrl: '/img/msg-43.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '44', title: 'Trabalho',  description: 'Trabalho',  imageUrl: '/img/msg-44.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '45', title: 'Dúvidas',  description: 'Dúvidas',  imageUrl: '/img/msg-45.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '46', title: 'Problemas',  description: 'Problemas',  imageUrl: '/img/msg-46.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '47', title: 'Gratidão',  description: 'Gratidão',  imageUrl: '/img/msg-47.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '48', title: 'Auxílio',  description: 'Auxílio',  imageUrl: '/img/msg-48.png', width: 400, height: 480, tags: ['tag2'] }
 
 ];
 
