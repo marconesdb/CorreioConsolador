@@ -29,6 +29,18 @@ const QuemSomos: React.FC = () => {
       <p className="mb-4">
         Assim, cada publicação é concebida como um convite à reflexão, à transformação íntima e ao despertar da consciência, fortalecendo a fé, restaurando esperanças e auxiliando na construção de uma sociedade mais justa, solidária e espiritualmente consciente.
       </p>
+
+      {/* Link para o grupo do WhatsApp */}
+      <div className="text-center mt-8">
+        <a
+          href="https://chat.whatsapp.com/IFvAuReS9gmACK28DNjEoK"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-green-500 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-green-600 transition-colors"
+        >
+          Junte-se ao nosso grupo no WhatsApp
+        </a>
+      </div>
     </div>
   );
 };
