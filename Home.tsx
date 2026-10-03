@@ -68,6 +68,12 @@ const INITIAL_PINS: Pin[] = [
   { id: '56', title: 'Luz',  description: 'Luz',  imageUrl: '/img/msg-56.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '57', title: 'Confiança',  description: 'Confiança',  imageUrl: '/img/msg-57.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '58', title: 'Auxílio',  description: 'Auxílio',  imageUrl: '/img/msg-58.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '59', title: 'Gratidão',  description: 'Gratidão',  imageUrl: '/img/msg-59.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '60', title: 'Ninguém',  description: 'Ninguém',  imageUrl: '/img/msg-60.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '61', title: 'Aceita',  description: 'Aceita',  imageUrl: '/img/msg-61.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '62', title: 'Moeda',  description: 'Moeda',  imageUrl: '/img/msg-62.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '63', title: 'Fé',  description: 'Fé',  imageUrl: '/img/msg-63.png', width: 400, height: 480, tags: ['tag2'] },
+
 ];
 
 const Home = () => {
