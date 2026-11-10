@@ -73,6 +73,10 @@ const INITIAL_PINS: Pin[] = [
   { id: '61', title: 'Aceita',  description: 'Aceita',  imageUrl: '/img/msg-61.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '62', title: 'Moeda',  description: 'Moeda',  imageUrl: '/img/msg-62.png', width: 400, height: 480, tags: ['tag2'] },
   { id: '63', title: 'Fé',  description: 'Fé',  imageUrl: '/img/msg-63.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '64', title: 'Decepção',  description: 'Decepção',  imageUrl: '/img/msg-64.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '65', title: 'Prece',  description: 'Prece',  imageUrl: '/img/msg-65.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '66', title: 'Provações',  description: 'Provações',  imageUrl: '/img/msg-66.png', width: 400, height: 480, tags: ['tag2'] },
+  { id: '67', title: 'Posse',  description: 'Posse',  imageUrl: '/img/msg-67.png', width: 400, height: 480, tags: ['tag2'] },
 
 ];
 
